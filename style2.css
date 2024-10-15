@@ -1,0 +1,78 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+body
+{
+    background-color: antiquewhite;
+}
+#site
+{
+    height: 96vh;
+    display: grid;
+    padding: 7px;
+    gap: 1px;
+}
+#site>div
+{
+    border: 2px solid black;
+}
+#right
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#header2
+{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+}
+#header1
+{   grid-column-start: 2;
+    column-width: 15vh;
+    grid-column-end: 4;
+}
+#middel1
+{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+#middel2
+{   grid-row-start:4 ;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 5; 
+
+}
+#middel3
+{   
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+#middel4
+{
+   grid-column-start: 5;
+   grid-column-end: 7;
+   grid-row-start: 4;
+   grid-row-end: 6;
+}
+#left
+{
+  grid-column-start: 7;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+#left1
+{
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
